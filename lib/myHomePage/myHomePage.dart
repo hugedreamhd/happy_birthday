@@ -10,6 +10,20 @@ class MyHomePage extends StatelessWidget {
         body: Stack(
           alignment: AlignmentDirectional.topStart,
           children: [
+            // SingleChildScrollView(
+            //   child: Column(
+            //     children: [
+            //       AspectRatio(
+            //         aspectRatio: 16 / 9,
+            //         child: Image.asset(
+            //           'assets/img/space.jpg',
+            //           width: double.infinity,
+            //           fit: BoxFit.cover,
+            //         ),
+            //       ),
+            //     ],
+            //   ),
+            // ),
             Image.asset(
               'assets/img/space.jpg',
               width: double.infinity,
